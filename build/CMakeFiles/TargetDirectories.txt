@@ -1,0 +1,4 @@
+/home/clarence/Geant4-11-tutorial/build/CMakeFiles/sim.dir
+/home/clarence/Geant4-11-tutorial/build/CMakeFiles/Tutorial.dir
+/home/clarence/Geant4-11-tutorial/build/CMakeFiles/edit_cache.dir
+/home/clarence/Geant4-11-tutorial/build/CMakeFiles/rebuild_cache.dir
