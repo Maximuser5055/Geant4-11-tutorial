@@ -7,7 +7,10 @@ PMActionInitialization::~PMActionInitialization()
 {}
 
 void PMActionInitialization::BuildForMaster() const
-{}
+{
+    PMRunAction *runAction = new PMRunAction();
+    SetUserAction(runAction);
+}
 
 void PMActionInitialization::Build() const
 {
