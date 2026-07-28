@@ -7,6 +7,7 @@
 #include "G4ParticleTable.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4Event.hh"
+#include "G4IonTable.hh"
 
 class PMPrimaryGenerator : public G4VUserPrimaryGeneratorAction
 {

@@ -299,6 +299,9 @@ CMakeFiles/sim.dir/src/PMActionInitialization.cc.o: \
  /usr/include/c++/15/backward/auto_ptr.h \
  /usr/include/c++/15/pstl/glue_memory_defs.h \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VUserEventInformation.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4IonTable.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Ions.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ParticleTable.hh \
  /home/clarence/Geant4-11-tutorial/include/PMRunAction.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4UserRunAction.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Run.hh \

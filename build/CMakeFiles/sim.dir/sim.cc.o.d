@@ -656,6 +656,12 @@ CMakeFiles/sim.dir/sim.cc.o: /home/clarence/Geant4-11-tutorial/sim.cc \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ProductionCuts.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4MCCIndexConversionTable.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4EmStandardPhysics.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4RadioactiveDecayPhysics.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4DecayPhysics.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Decay.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VRestDiscreteProcess.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ParticleChangeForDecay.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4DecayProcessType.hh \
  /home/clarence/Geant4-11-tutorial/include/PMDetectorConstruction.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Box.hh \
@@ -751,6 +757,8 @@ CMakeFiles/sim.dir/sim.cc.o: /home/clarence/Geant4-11-tutorial/sim.cc \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VPrimaryGenerator.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ParticleTable.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Event.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4IonTable.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Ions.hh \
  /home/clarence/Geant4-11-tutorial/include/PMActionInitialization.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VUserActionInitialization.hh \
  /home/clarence/Geant4-11-tutorial/include/PMPrimaryGenerator.hh \
