@@ -287,6 +287,8 @@ CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Visible.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Visible.icc \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Box.icc \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Sphere.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Sphere.icc \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4LogicalVolume.hh \
  /usr/include/c++/15/memory \
  /usr/include/c++/15/bits/stl_raw_storage_iter.h \

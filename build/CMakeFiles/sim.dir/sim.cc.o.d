@@ -665,6 +665,7 @@ CMakeFiles/sim.dir/sim.cc.o: /home/clarence/Geant4-11-tutorial/sim.cc \
  /home/clarence/Geant4-11-tutorial/include/PMDetectorConstruction.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Box.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Sphere.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4LogicalVolume.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VPhysicalVolume.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4PVPlacement.hh \
