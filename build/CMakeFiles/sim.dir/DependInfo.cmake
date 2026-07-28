@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/clarence/Geant4-11-tutorial/src/PMDetectorConstruction.cc" "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o.d"
   "/home/clarence/Geant4-11-tutorial/src/PMPhysicsList.cc" "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o.d"
   "/home/clarence/Geant4-11-tutorial/src/PMPrimaryGenerator.cc" "CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o.d"
+  "/home/clarence/Geant4-11-tutorial/src/PMSensitiveDetector.cc" "CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o.d"
   "" "sim" "gcc" "CMakeFiles/sim.dir/link.d"
   )
 

@@ -1,8 +1,9 @@
-CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: \
- /home/clarence/Geant4-11-tutorial/src/PMDetectorConstruction.cc \
+CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o: \
+ /home/clarence/Geant4-11-tutorial/src/PMSensitiveDetector.cc \
  /usr/include/stdc-predef.h \
- /home/clarence/Geant4-11-tutorial/include/PMDetectorConstruction.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/clarence/Geant4-11-tutorial/include/PMSensitiveDetector.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4CollectionNameVector.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/globals.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ios.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Types.hh \
@@ -243,30 +244,18 @@ CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: \
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
  /usr/include/c++/15/bits/vector.tcc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Box.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4GeomTypes.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4GeomConfig.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4CSGSolid.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VSolid.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/geomdefs.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4HCofThisEvent.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Allocator.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4AllocatorPool.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VHitsCollection.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Step.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ThreeVector.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Utility/defs.h \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VSolid.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Polyhedron.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/HepPolyhedron.h \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4TwoVector.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Point3D.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Point3D.h \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Normal3D.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Transform3D.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/geomdefs.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4RotationMatrix.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Vector/Rotation.h \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
@@ -283,40 +272,58 @@ CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Vector/RotationZ.h \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Vector/Rotation.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Visible.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Visible.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Box.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4LogicalVolume.hh \
- /usr/include/c++/15/memory \
- /usr/include/c++/15/bits/stl_raw_storage_iter.h \
- /usr/include/c++/15/bits/align.h /usr/include/c++/15/bits/unique_ptr.h \
- /usr/include/c++/15/bits/shared_ptr.h \
- /usr/include/c++/15/bits/shared_ptr_base.h \
- /usr/include/c++/15/bits/allocated_ptr.h \
- /usr/include/c++/15/ext/concurrence.h \
- /usr/include/c++/15/bits/shared_ptr_atomic.h \
- /usr/include/c++/15/bits/atomic_base.h \
- /usr/include/c++/15/bits/atomic_lockfree_defines.h \
- /usr/include/c++/15/backward/auto_ptr.h \
- /usr/include/c++/15/pstl/glue_memory_defs.h \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Region.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4GeomSplitter.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/geomwdefs.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4AutoLock.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Threading.hh \
  /usr/include/c++/15/chrono /usr/include/c++/15/condition_variable \
- /usr/include/c++/15/future /usr/include/c++/15/bits/atomic_futex.h \
- /usr/include/c++/15/atomic /usr/include/c++/15/bits/std_function.h \
+ /usr/include/c++/15/bits/shared_ptr.h \
+ /usr/include/c++/15/bits/shared_ptr_base.h \
+ /usr/include/c++/15/bits/allocated_ptr.h \
+ /usr/include/c++/15/bits/unique_ptr.h \
+ /usr/include/c++/15/ext/concurrence.h /usr/include/c++/15/future \
+ /usr/include/c++/15/bits/atomic_base.h \
+ /usr/include/c++/15/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/15/bits/atomic_futex.h /usr/include/c++/15/atomic \
+ /usr/include/c++/15/bits/std_function.h \
  /usr/include/c++/15/bits/std_thread.h /usr/include/c++/15/thread \
  /usr/include/c++/15/bits/this_thread_sleep.h \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Region.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4RotationMatrix.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VPhysicalVolume.icc \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4StepPoint.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SteppingControl.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4StepStatus.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4TouchableHandle.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VTouchable.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4TouchableHistory.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationHistory.hh \
+ /usr/include/assert.h \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4AffineTransform.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Transform3D.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Point3D.h \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4AffineTransform.icc \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationLevel.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationLevelRep.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationLevelRep.icc \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationLevel.icc \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationHistoryPool.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationHistory.icc \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4LogicalVolume.hh \
+ /usr/include/c++/15/memory \
+ /usr/include/c++/15/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/15/bits/align.h \
+ /usr/include/c++/15/bits/shared_ptr_atomic.h \
+ /usr/include/c++/15/backward/auto_ptr.h \
+ /usr/include/c++/15/pstl/glue_memory_defs.h \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Region.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Region.icc \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4LogicalVolume.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4PVPlacement.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4TouchableHistory.icc \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ReferenceCountedHandle.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Material.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Element.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ElementTable.hh \
@@ -344,51 +351,6 @@ CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4OrderedTable.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4DataVector.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4DataVector.icc \
- /usr/include/assert.h \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NistManager.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ICRU90StoppingData.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Material.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NistElementBuilder.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NistMaterialBuilder.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Pow.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Exp.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SystemOfUnits.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4UnitsTable.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4UnitsTable.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VisAttributes.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/graphics_reps_defs.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Colour.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Color.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VisAttributes.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Color.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SDManager.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4HCtable.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SDStructure.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VSensitiveDetector.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4CollectionNameVector.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4HCofThisEvent.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Allocator.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4AllocatorPool.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VHitsCollection.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Step.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4StepPoint.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SteppingControl.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4StepStatus.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4TouchableHandle.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VTouchable.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4TouchableHistory.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationHistory.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4AffineTransform.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4AffineTransform.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationLevel.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationLevelRep.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationLevelRep.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationLevel.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationHistoryPool.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationHistory.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4LogicalVolume.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4TouchableHistory.icc \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ReferenceCountedHandle.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4StepPoint.icc \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4TrackVector.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Step.icc \
@@ -412,5 +374,6 @@ CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VReadOutGeometry.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VSDFilter.hh \
- /home/clarence/Geant4-11-tutorial/include/PMSensitiveDetector.hh \
- /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VSensitiveDetector.hh
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4UnitsTable.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4UnitsTable.icc

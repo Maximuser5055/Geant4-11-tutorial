@@ -672,6 +672,18 @@ CMakeFiles/sim.dir/sim.cc.o: /home/clarence/Geant4-11-tutorial/sim.cc \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SystemOfUnits.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4UnitsTable.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4UnitsTable.icc \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VisAttributes.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Color.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SDManager.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4HCtable.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SDStructure.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4CollectionNameVector.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VReadOutGeometry.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VSDFilter.hh \
+ /home/clarence/Geant4-11-tutorial/include/PMSensitiveDetector.hh \
+ /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/clarence/Geant4-11-tutorial/include/PMPrimaryGenerator.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ParticleDefinition.hh \

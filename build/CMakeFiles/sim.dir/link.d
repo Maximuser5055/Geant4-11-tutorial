@@ -7,6 +7,7 @@ sim: \
   CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o \
   CMakeFiles/sim.dir/src/PMPhysicsList.cc.o \
   CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o \
+  CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4Tree.so \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4FR.so \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4GMocren.so \
@@ -71,8 +72,6 @@ sim: \
   /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o \
-  /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4graphics_reps.so \
-  /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4digits_hits.so \
   /usr/lib/x86_64-linux-gnu/libX11.so.6 \
   /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.10.2 \
   /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.10.2 \
@@ -143,6 +142,8 @@ CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o:
 CMakeFiles/sim.dir/src/PMPhysicsList.cc.o:
 
 CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o:
+
+CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4Tree.so:
 
@@ -271,10 +272,6 @@ CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o:
 /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o:
-
-/home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4graphics_reps.so:
-
-/home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4digits_hits.so:
 
 /usr/lib/x86_64-linux-gnu/libX11.so.6:
 
