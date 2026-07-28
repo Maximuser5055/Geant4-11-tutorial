@@ -6,6 +6,7 @@ CMakeFiles/sim.dir/sim.cc.o: /home/clarence/Geant4-11-tutorial/sim.cc \
   /home/clarence/Geant4-11-tutorial/include/PMDetectorConstruction.hh \
   /home/clarence/Geant4-11-tutorial/include/PMPhysicsList.hh \
   /home/clarence/Geant4-11-tutorial/include/PMPrimaryGenerator.hh \
+  /home/clarence/Geant4-11-tutorial/include/PMSensitiveDetector.hh \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Plane3D.h \
@@ -1110,6 +1111,7 @@ CMakeFiles/sim.dir/src/PMActionInitialization.cc.o: /home/clarence/Geant4-11-tut
 
 CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: /home/clarence/Geant4-11-tutorial/src/PMDetectorConstruction.cc \
   /home/clarence/Geant4-11-tutorial/include/PMDetectorConstruction.hh \
+  /home/clarence/Geant4-11-tutorial/include/PMSensitiveDetector.hh \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Point3D.h \
@@ -2931,8 +2933,6 @@ sim: /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4FR.so \
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4FR.so:
 
-/home/clarence/Geant4-11-tutorial/include/PMSensitiveDetector.hh:
-
 /home/clarence/Geant4-11-tutorial/src/PMSensitiveDetector.cc:
 
 /home/clarence/Geant4-11-tutorial/src/PMDetectorConstruction.cc:
@@ -3197,13 +3197,13 @@ CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o:
 
 /usr/include/c++/15/complex:
 
+/usr/include/c++/15/cmath:
+
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SmartVoxelHeader.icc:
 
 CMakeFiles/sim.dir/src/PMActionInitialization.cc.o:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ForceCondition.hh:
-
-/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SmartVoxelNode.icc:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SmartTrackStack.hh:
 
@@ -3493,6 +3493,14 @@ CMakeFiles/sim.dir/src/PMActionInitialization.cc.o:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4AuxiliaryNavServices.hh:
 
+/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4MaterialPropertyVector.hh:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/c++/15/string_view:
+
+/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4GPILSelection.hh:
+
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4PhysicsFreeVector.hh:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4DensityEffectCalculator.hh:
@@ -3649,8 +3657,6 @@ CMakeFiles/sim.dir/src/PMActionInitialization.cc.o:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Random/RandGamma.h:
 
-/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc:
-
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Point3D.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
@@ -3658,6 +3664,8 @@ CMakeFiles/sim.dir/src/PMActionInitialization.cc.o:
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4TrajectoryFilterFactories.hh:
 
 /usr/include/c++/15/bits/invoke.h:
+
+/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4EnvironmentUtils.hh:
 
@@ -3677,17 +3685,15 @@ CMakeFiles/sim.dir/src/PMActionInitialization.cc.o:
 
 /usr/include/c++/15/bits/align.h:
 
-/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4EmStandardPhysics.hh:
-
-/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ProcessManager.icc:
-
-/usr/include/c++/15/map:
-
-/usr/include/c++/15/bits/refwrap.h:
-
-/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4AutoLock.hh:
-
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Random/RandBit.h:
+
+/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Cons.icc:
+
+/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4RayTracerX.hh:
+
+/usr/include/c++/15/bits/deque.tcc:
+
+/usr/include/c++/15/bits/stl_tempbuf.h:
 
 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
 
@@ -3731,6 +3737,16 @@ CMakeFiles/sim.dir/src/PMActionInitialization.cc.o:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Ellipsoid.hh:
 
+/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4EmStandardPhysics.hh:
+
+/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4ProcessManager.icc:
+
+/usr/include/c++/15/map:
+
+/usr/include/c++/15/bits/refwrap.h:
+
+/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4AutoLock.hh:
+
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Para.hh:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Random/RandChiSquare.icc:
@@ -3768,12 +3784,6 @@ CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o:
 /usr/include/c++/15/bits/hash_bytes.h:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Cons.hh:
-
-/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4RayTracerX.hh:
-
-/usr/include/c++/15/bits/deque.tcc:
-
-/usr/include/c++/15/bits/stl_tempbuf.h:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h:
 
@@ -3822,6 +3832,10 @@ CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o:
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Sphere.icc:
 
 /usr/include/c++/15/bits/atomic_base.h:
+
+/home/clarence/Geant4-11-tutorial/include/PMSensitiveDetector.hh:
+
+/usr/include/c++/15/bits/locale_facets_nonio.h:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4AttDef.hh:
 
@@ -3919,8 +3933,6 @@ CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o:
 
 /usr/include/c++/15/bits/std_function.h:
 
-/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Cons.icc:
-
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4NavigationHistory.hh:
@@ -3959,13 +3971,7 @@ CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4Exp.hh:
 
-/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4MaterialPropertyVector.hh:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/c++/15/string_view:
-
-/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4GPILSelection.hh:
+/home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SmartVoxelNode.icc:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4SmartVoxelProxy.icc:
 
@@ -4437,8 +4443,6 @@ CMakeFiles/sim.dir/src/PMPhysicsList.cc.o:
 
 /usr/include/c++/15/bits/locale_conv.h:
 
-/usr/include/c++/15/bits/locale_facets_nonio.h:
-
 /usr/include/c++/15/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/15/bits/ostream.h:
@@ -4536,5 +4540,3 @@ CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o:
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/G4OpenGLImmediateX.hh:
 
 /usr/include/c++/15/clocale:
-
-/usr/include/c++/15/cmath:

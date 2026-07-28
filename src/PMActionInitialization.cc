@@ -13,4 +13,7 @@ void PMActionInitialization::Build() const
 {
     PMPrimaryGenerator *generator = new PMPrimaryGenerator();
     SetUserAction(generator);
+
+    PMRunAction *runAction = new PMRunAction();
+    SetUserAction(runAction);
 }

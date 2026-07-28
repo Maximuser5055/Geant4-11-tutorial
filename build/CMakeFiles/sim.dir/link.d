@@ -7,6 +7,7 @@ sim: \
   CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o \
   CMakeFiles/sim.dir/src/PMPhysicsList.cc.o \
   CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o \
+  CMakeFiles/sim.dir/src/PMRunAction.cc.o \
   CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4Tree.so \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4FR.so \
@@ -83,10 +84,11 @@ sim: \
   /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6 \
   /usr/lib/x86_64-linux-gnu/libQt6OpenGL.so.6 \
   /usr/lib/x86_64-linux-gnu/libXmu.so.6 \
+  /usr/lib/x86_64-linux-gnu/libexpat.so \
+  /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4zlib.so \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4parmodels.so \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4processes_hadronic.so \
   /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4track.so \
-  /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4zlib.so \
   /lib64/ld-linux-x86-64.so.2 \
   /usr/lib/x86_64-linux-gnu/libxcb.so.1 \
   /usr/lib/x86_64-linux-gnu/libEGL.so.1 \
@@ -112,7 +114,6 @@ sim: \
   /usr/lib/x86_64-linux-gnu/libXext.so.6 \
   /usr/lib/x86_64-linux-gnu/libXau.so.6 \
   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6 \
-  /usr/lib/x86_64-linux-gnu/libexpat.so \
   /usr/lib/x86_64-linux-gnu/libatomic.so.1 \
   /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0 \
   /usr/lib/x86_64-linux-gnu/libdbus-1.so.3 \
@@ -142,6 +143,8 @@ CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o:
 CMakeFiles/sim.dir/src/PMPhysicsList.cc.o:
 
 CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o:
+
+CMakeFiles/sim.dir/src/PMRunAction.cc.o:
 
 CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o:
 
@@ -295,13 +298,15 @@ CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o:
 
 /usr/lib/x86_64-linux-gnu/libXmu.so.6:
 
+/usr/lib/x86_64-linux-gnu/libexpat.so:
+
+/home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4zlib.so:
+
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4parmodels.so:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4processes_hadronic.so:
 
 /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4track.so:
-
-/home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4zlib.so:
 
 /lib64/ld-linux-x86-64.so.2:
 
@@ -352,8 +357,6 @@ CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o:
 /usr/lib/x86_64-linux-gnu/libXau.so.6:
 
 /usr/lib/x86_64-linux-gnu/libXdmcp.so.6:
-
-/usr/lib/x86_64-linux-gnu/libexpat.so:
 
 /usr/lib/x86_64-linux-gnu/libatomic.so.1:
 

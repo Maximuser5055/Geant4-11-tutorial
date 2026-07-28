@@ -7,6 +7,7 @@ CMakeFiles/sim.dir/sim.cc.o
  /home/clarence/Geant4-11-tutorial/include/PMDetectorConstruction.hh
  /home/clarence/Geant4-11-tutorial/include/PMPhysicsList.hh
  /home/clarence/Geant4-11-tutorial/include/PMPrimaryGenerator.hh
+ /home/clarence/Geant4-11-tutorial/include/PMSensitiveDetector.hh
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -1113,6 +1114,7 @@ CMakeFiles/sim.dir/src/PMActionInitialization.cc.o
 CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o
  /home/clarence/Geant4-11-tutorial/src/PMDetectorConstruction.cc
  /home/clarence/Geant4-11-tutorial/include/PMDetectorConstruction.hh
+ /home/clarence/Geant4-11-tutorial/include/PMSensitiveDetector.hh
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/clarence/Software/Geant4/geant4-v11.4.2-install/include/Geant4/CLHEP/Geometry/Point3D.h
