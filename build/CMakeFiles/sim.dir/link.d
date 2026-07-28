@@ -3,6 +3,7 @@ sim: \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/sim.dir/sim.cc.o \
+  CMakeFiles/sim.dir/src/PMActionInitialization.cc.o \
   CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o \
   CMakeFiles/sim.dir/src/PMPhysicsList.cc.o \
   CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o \
@@ -134,6 +135,8 @@ sim: \
 /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
 
 CMakeFiles/sim.dir/sim.cc.o:
+
+CMakeFiles/sim.dir/src/PMActionInitialization.cc.o:
 
 CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o:
 

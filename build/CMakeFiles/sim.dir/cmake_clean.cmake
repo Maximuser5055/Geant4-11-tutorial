@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sim.dir/link.d"
   "CMakeFiles/sim.dir/sim.cc.o"
   "CMakeFiles/sim.dir/sim.cc.o.d"
+  "CMakeFiles/sim.dir/src/PMActionInitialization.cc.o"
+  "CMakeFiles/sim.dir/src/PMActionInitialization.cc.o.d"
   "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o"
   "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o.d"
   "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o"

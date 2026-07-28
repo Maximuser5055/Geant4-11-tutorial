@@ -86,10 +86,24 @@ CMakeFiles/sim.dir/sim.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/sim.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/clarence/Geant4-11-tutorial/sim.cc -o CMakeFiles/sim.dir/sim.cc.s
 
+CMakeFiles/sim.dir/src/PMActionInitialization.cc.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/src/PMActionInitialization.cc.o: /home/clarence/Geant4-11-tutorial/src/PMActionInitialization.cc
+CMakeFiles/sim.dir/src/PMActionInitialization.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/clarence/Geant4-11-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sim.dir/src/PMActionInitialization.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMActionInitialization.cc.o -MF CMakeFiles/sim.dir/src/PMActionInitialization.cc.o.d -o CMakeFiles/sim.dir/src/PMActionInitialization.cc.o -c /home/clarence/Geant4-11-tutorial/src/PMActionInitialization.cc
+
+CMakeFiles/sim.dir/src/PMActionInitialization.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/PMActionInitialization.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/clarence/Geant4-11-tutorial/src/PMActionInitialization.cc > CMakeFiles/sim.dir/src/PMActionInitialization.cc.i
+
+CMakeFiles/sim.dir/src/PMActionInitialization.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/PMActionInitialization.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/clarence/Geant4-11-tutorial/src/PMActionInitialization.cc -o CMakeFiles/sim.dir/src/PMActionInitialization.cc.s
+
 CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: /home/clarence/Geant4-11-tutorial/src/PMDetectorConstruction.cc
 CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/clarence/Geant4-11-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/clarence/Geant4-11-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o -MF CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o.d -o CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o -c /home/clarence/Geant4-11-tutorial/src/PMDetectorConstruction.cc
 
 CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.s: cmake_force
 CMakeFiles/sim.dir/src/PMPhysicsList.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/PMPhysicsList.cc.o: /home/clarence/Geant4-11-tutorial/src/PMPhysicsList.cc
 CMakeFiles/sim.dir/src/PMPhysicsList.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/clarence/Geant4-11-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sim.dir/src/PMPhysicsList.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/clarence/Geant4-11-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sim.dir/src/PMPhysicsList.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMPhysicsList.cc.o -MF CMakeFiles/sim.dir/src/PMPhysicsList.cc.o.d -o CMakeFiles/sim.dir/src/PMPhysicsList.cc.o -c /home/clarence/Geant4-11-tutorial/src/PMPhysicsList.cc
 
 CMakeFiles/sim.dir/src/PMPhysicsList.cc.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/sim.dir/src/PMPhysicsList.cc.s: cmake_force
 CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: /home/clarence/Geant4-11-tutorial/src/PMPrimaryGenerator.cc
 CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/clarence/Geant4-11-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/clarence/Geant4-11-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o -MF CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o.d -o CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o -c /home/clarence/Geant4-11-tutorial/src/PMPrimaryGenerator.cc
 
 CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.i: cmake_force
@@ -131,6 +145,7 @@ CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.s: cmake_force
 # Object files for target sim
 sim_OBJECTS = \
 "CMakeFiles/sim.dir/sim.cc.o" \
+"CMakeFiles/sim.dir/src/PMActionInitialization.cc.o" \
 "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o" \
 "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o" \
 "CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o"
@@ -139,6 +154,7 @@ sim_OBJECTS = \
 sim_EXTERNAL_OBJECTS =
 
 sim: CMakeFiles/sim.dir/sim.cc.o
+sim: CMakeFiles/sim.dir/src/PMActionInitialization.cc.o
 sim: CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o
 sim: CMakeFiles/sim.dir/src/PMPhysicsList.cc.o
 sim: CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o
@@ -183,7 +199,7 @@ sim: /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4clhep.so
 sim: /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4ptl.so.3.0.0
 sim: /home/clarence/Software/Geant4/geant4-v11.4.2-install/lib/libG4zlib.so
 sim: CMakeFiles/sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/clarence/Geant4-11-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/clarence/Geant4-11-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

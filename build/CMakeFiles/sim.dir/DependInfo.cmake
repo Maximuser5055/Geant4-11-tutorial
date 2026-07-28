@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/clarence/Geant4-11-tutorial/sim.cc" "CMakeFiles/sim.dir/sim.cc.o" "gcc" "CMakeFiles/sim.dir/sim.cc.o.d"
+  "/home/clarence/Geant4-11-tutorial/src/PMActionInitialization.cc" "CMakeFiles/sim.dir/src/PMActionInitialization.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMActionInitialization.cc.o.d"
   "/home/clarence/Geant4-11-tutorial/src/PMDetectorConstruction.cc" "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o.d"
   "/home/clarence/Geant4-11-tutorial/src/PMPhysicsList.cc" "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o.d"
   "/home/clarence/Geant4-11-tutorial/src/PMPrimaryGenerator.cc" "CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o.d"

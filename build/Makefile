@@ -173,6 +173,30 @@ sim.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/sim.cc.s
 .PHONY : sim.cc.s
 
+src/PMActionInitialization.o: src/PMActionInitialization.cc.o
+.PHONY : src/PMActionInitialization.o
+
+# target to build an object file
+src/PMActionInitialization.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMActionInitialization.cc.o
+.PHONY : src/PMActionInitialization.cc.o
+
+src/PMActionInitialization.i: src/PMActionInitialization.cc.i
+.PHONY : src/PMActionInitialization.i
+
+# target to preprocess a source file
+src/PMActionInitialization.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMActionInitialization.cc.i
+.PHONY : src/PMActionInitialization.cc.i
+
+src/PMActionInitialization.s: src/PMActionInitialization.cc.s
+.PHONY : src/PMActionInitialization.s
+
+# target to generate assembly for a file
+src/PMActionInitialization.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMActionInitialization.cc.s
+.PHONY : src/PMActionInitialization.cc.s
+
 src/PMDetectorConstruction.o: src/PMDetectorConstruction.cc.o
 .PHONY : src/PMDetectorConstruction.o
 
@@ -259,6 +283,9 @@ help:
 	@echo "... sim.o"
 	@echo "... sim.i"
 	@echo "... sim.s"
+	@echo "... src/PMActionInitialization.o"
+	@echo "... src/PMActionInitialization.i"
+	@echo "... src/PMActionInitialization.s"
 	@echo "... src/PMDetectorConstruction.o"
 	@echo "... src/PMDetectorConstruction.i"
 	@echo "... src/PMDetectorConstruction.s"
